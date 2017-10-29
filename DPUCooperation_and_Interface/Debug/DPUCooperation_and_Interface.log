@@ -1,0 +1,30 @@
+﻿Der Buildvorgang wurde am 24.10.2017 10:32:36 gestartet.
+     1>Projekt "C:\SILAB5\Projects\Freymann\DPUCooperation_and_Interface\DPUCooperation_and_Interface.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         Aktualisieren des Timestamps von "Debug\DPUCooperation_and_Interface.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\src /ZI /nologo /W1 /WX- /Od /Oy- /D _DEBUG /D WINVER=0x501 /D WIN32 /D _WINDOWS /D _USRDLL /D DPUCooperation_and_Interface_EXPORTS /D WINDOWS_SYSTEM /Gm /EHsc /RTC1 /MTd /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ColorRGBA.cpp DPUCooperation_and_Interface.cpp Linear.cpp StdAfx.cpp VisualObject.cpp
+         VisualObject.cpp
+         StdAfx.cpp
+         Linear.cpp
+         DPUCooperation_and_Interface.cpp
+         ColorRGBA.cpp
+         Code wird generiert...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\SILAB5\Projects\Freymann\DPUCooperation_and_Interface\Debug\DPUCooperation_and_Interface.dll" /NOLOGO /LIBPATH:..\..\..\bin kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DPUCooperation_and_Interface.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\SILAB5\Projects\Freymann\DPUCooperation_and_Interface\Debug\DPUCooperation_and_Interface.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\SILAB5\Projects\Freymann\DPUCooperation_and_Interface\Debug\DPUCooperation_and_Interface.lib" /MACHINE:X86 /DLL Debug\ColorRGBA.obj
+         Debug\DPUCooperation_and_Interface.obj
+         Debug\Linear.obj
+         Debug\StdAfx.obj
+         Debug\VisualObject.obj
+            Bibliothek "C:\SILAB5\Projects\Freymann\DPUCooperation_and_Interface\Debug\DPUCooperation_and_Interface.lib" und Objekt "C:\SILAB5\Projects\Freymann\DPUCooperation_and_Interface\Debug\DPUCooperation_and_Interface.exp" werden erstellt.
+         DPUCooperation_and_Interface.vcxproj -> C:\SILAB5\Projects\Freymann\DPUCooperation_and_Interface\Debug\DPUCooperation_and_Interface.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\SILAB5\Projects\Freymann\DPUCooperation_and_Interface\Debug\DPUCooperation_and_Interface.dll;#2" /manifest Debug\DPUCooperation_and_Interface.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Die Datei "Debug\DPUCooperation_and_Interface.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "Debug\DPUCooperation_and_Interface.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\SILAB5\Projects\Freymann\DPUCooperation_and_Interface\DPUCooperation_and_Interface.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:06.35
