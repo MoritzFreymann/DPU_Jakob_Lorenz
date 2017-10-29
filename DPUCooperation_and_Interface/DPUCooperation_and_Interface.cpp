@@ -47,7 +47,7 @@ bool cSPUCooperation_and_Interface::Prepare()
 	double v_start = 0;				// velocity befor slowdown
 	double v_end = 0;				// velocity after slowdown
 	double delta_v = 0;				// v_end - v_start (delta_v < 0)
-	double v = 0;					// new velocity, which is given to
+	double v = 0;					// new velocity, which is given to ...
 
 	this->accepted_arr = new int[9];
 	this->accepted_arr[0] = 0;
@@ -145,7 +145,8 @@ void cSPUCooperation_and_Interface::Trigger(double d_TimeMS, double d_TimeErrorM
 		if ((int)m_Data.mi_RequestID_In > 0 && (int)m_Data.mi_RequestID_In != this->pos + 1)	// checking, if there is a new request 
 		{
 			// there is a new request
-			this->state = DELAY;
+
+			this->state = DELAY;	// go to state DELAY
 		}
 		break;	// exit switch, so trigger can go on
 
@@ -478,7 +479,6 @@ void cSPUCooperation_and_Interface::entryCooperation_TOR()
 	this->BaselayerCircleRightMiddle->setVisibility(false, 20);
 }
 
-
 void cSPUCooperation_and_Interface::doCooperation()
 {
 	// ==========================================================================================
@@ -688,4 +688,3 @@ void cSPUCooperation_and_Interface::mapOutput()
 void cSPUCooperation_and_Interface::Cleanup()
 {
 }
-
